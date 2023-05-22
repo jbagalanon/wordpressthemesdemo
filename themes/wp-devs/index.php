@@ -13,7 +13,12 @@
                         Services
                     </section>
                     <sectiom class="home-blog">
-                        <?php 
+
+                    <div class="container">
+
+                    <div class="blog-items">
+
+ <?php 
                         if (have_posts()):
                             while (have_posts(  )): the_post(  );
                             ?> 
@@ -37,6 +42,13 @@
                             <p>There are no posts!</p> 
                             <?php endif;                 
                         ?>
+
+
+
+                    </div>
+
+                    </div>
+                       
                     </sectiom>
                 </div>
 
