@@ -59,6 +59,17 @@ function wpdevs_sidebars()
 {
 
     register_sidebar(array(
+        'name' => 'Blog Sidebar',
+        'id' => 'sidebar-blog',
+        'description' => 'This is the blog sidebar.',
+        'before_widget' => '<div class="widget-wrapper">',
+        'after_widget' => '</div>',
+        'before_title' => '<h4 class="widget-title">',
+        'after_title' => '</h4>'
+
+    ));
+
+    register_sidebar(array(
         'name' => 'Service 1',
         'id' => 'services-1',
         'description' => 'This is the blog sidebar.',
