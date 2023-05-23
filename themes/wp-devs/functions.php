@@ -51,3 +51,21 @@ function wpdevs_config()
 }
 
 add_action('after_setup_theme', 'wpdevs_config', 0);
+
+// this is sidebar initialialization
+add_action('widgets_init', 'wpdevs_sidebars');
+
+function wpdevs_sidebars()
+{
+
+    register_sidebar(array(
+        'name' => 'Blog Sidebar',
+        'id' => 'sidebar-blog',
+        'description' => 'This is the blog sidebar.',
+        'before_widget' => '<div class="widget-wrapper">',
+        'after_widget' => '</div',
+        'before_title' => '<h4 class="widget-title">',
+        'after_title' => '/h4'
+
+    ));
+}
