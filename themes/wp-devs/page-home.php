@@ -11,7 +11,27 @@
 
             </section>
             <section class="services">
-                Services
+                <h2>Services</h2>
+                <div class="container">
+                    <div class="services-item">
+                        <?php
+
+
+                        ?>
+                    </div>
+                    <div class="services-item">
+                        <?php
+
+
+                        ?>
+                    </div>
+                    <div class="services-item">
+                        <?php
+
+
+                        ?>
+                    </div>
+                </div>
             </section>
             <sectiom class="home-blog">
 
