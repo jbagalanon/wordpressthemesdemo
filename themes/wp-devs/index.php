@@ -6,7 +6,7 @@
 <div class="site-content" id="content">
     <div class="content-area" id="primary">
 
-        <div class="site-main" id="main">
+        <main class="site-main" id="main">
             <h1>Blog</h1>
 
             <div class="container">
@@ -42,10 +42,12 @@
 
                 </div>
 
+                <?php get_sidebar(); ?>
+
             </div>
 
 
-        </div>
+        </main>
 
     </div>
 

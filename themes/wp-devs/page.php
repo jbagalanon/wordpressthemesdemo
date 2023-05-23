@@ -24,6 +24,8 @@
                     ?>
                 </div>
 
+                <?php get_sidebar('page'); ?>
+
             </div>
 
 

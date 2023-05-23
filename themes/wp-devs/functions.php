@@ -63,9 +63,21 @@ function wpdevs_sidebars()
         'id' => 'sidebar-blog',
         'description' => 'This is the blog sidebar.',
         'before_widget' => '<div class="widget-wrapper">',
-        'after_widget' => '</div',
+        'after_widget' => '</div>',
         'before_title' => '<h4 class="widget-title">',
-        'after_title' => '/h4'
+        'after_title' => '</h4>'
+
+    ));
+
+
+    register_sidebar(array(
+        'name' => 'Page Sidebar',
+        'id' => 'sidebar-page',
+        'description' => 'This is the page sidebar.',
+        'before_widget' => '<div class="widget-wrapper">',
+        'after_widget' => '</div>',
+        'before_title' => '<h4 class="widget-title">',
+        'after_title' => '</h4>'
 
     ));
 }
