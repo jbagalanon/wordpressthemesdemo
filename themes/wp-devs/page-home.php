@@ -15,6 +15,18 @@
                 <div class="container">
                     <div class="services-item">
                         <?php
+                            if (is_active_sidebar('services-1')){
+                                dynamic_sidebar('services-1');
+                            }
+
+                        ?>
+                    </div>
+                    <div class="services-item">
+                        <?php
+
+                             if (is_active_sidebar('services-2')){
+                                dynamic_sidebar('services-2');
+                            }
 
 
                         ?>
@@ -22,11 +34,9 @@
                     <div class="services-item">
                         <?php
 
-
-                        ?>
-                    </div>
-                    <div class="services-item">
-                        <?php
+                             if (is_active_sidebar('services-3')){
+                                dynamic_sidebar('services-3');
+                            }
 
 
                         ?>

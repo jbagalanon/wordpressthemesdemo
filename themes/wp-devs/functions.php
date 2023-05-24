@@ -70,7 +70,7 @@ function wpdevs_sidebars()
     ));
 
     register_sidebar(array(
-        'name' => 'Service 1',
+        'name' => 'Services 1',
         'id' => 'services-1',
         'description' => 'This is the blog sidebar.',
         'before_widget' => '<div class="widget-wrapper">',
@@ -81,8 +81,8 @@ function wpdevs_sidebars()
     ));
 
     register_sidebar(array(
-        'name' => 'Service 2',
-        'id' => 'service-2',
+        'name' => 'Services 2',
+        'id' => 'services-2',
         'description' => 'This is the blog sidebar.',
         'before_widget' => '<div class="widget-wrapper">',
         'after_widget' => '</div>',
@@ -92,7 +92,7 @@ function wpdevs_sidebars()
     ));
 
     register_sidebar(array(
-        'name' => 'Service 3',
+        'name' => 'Services 3',
         'id' => 'services-3',
         'description' => 'This is the blog sidebar.',
         'before_widget' => '<div class="widget-wrapper">',
