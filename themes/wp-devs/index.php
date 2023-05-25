@@ -31,14 +31,25 @@
 
                                 <?php the_excerpt(); ?>
                             </article>
-                        <?php
+                        <?php                    
                         endwhile;
-                    else : ?>
-                        <p>There are no posts!</p>
-                    <?php endif;
-                    ?>
+                        ?>
+                            <div class="wpdevs-pagination">
+                        
+                                <div class="pages new">
+                                    <?php previous_post_link ("<< Newer posts"); ?>                        
+                            </div>
 
+                            <div class="pages old">
+                                <?php next_post_link("Older posts");?>
+                            </div>
+                            </div>
+                            
+                            <?php 
 
+                        else : ?>
+                            <p>There are no posts!</p>
+                        <?php endif; ?>
 
                 </div>
 
