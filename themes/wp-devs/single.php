@@ -21,6 +21,7 @@
                             </header>
 
                                     <?php the_content(); ?>
+                                    <?php wp_link_pages('nextpagelink')?>
                         </article>
 
                                 <div class="wpdevs-pagination">                                
