@@ -8,8 +8,8 @@
                     </p>
                     <?php if (has_category()): ?>
                     <p>Categories: <?php the_category('');  ?></p>
-                <?php endif; ?>
-                
+                        <?php endif; ?>
+
                     <p>Tags: <?php the_tags('', ',  '); ?> </p>
                 </div>
         </header>
