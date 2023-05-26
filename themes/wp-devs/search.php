@@ -28,11 +28,9 @@
                                     <?php the_excerpt(); ?>
                         </article>
 
-                        <?php                                      
-
-            
-
+                        <?php        
         endwhile;
+        the_posts_pagination(  );
         ?>
         
 </div>
