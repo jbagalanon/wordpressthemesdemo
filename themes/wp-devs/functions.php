@@ -40,6 +40,8 @@ function wpdevs_config()
         'width' => 1920
     );
 
+
+    add_theme_support( 'automatic-feed-link' );
     add_theme_support('custom-header', $args);
     add_theme_support('post-thumbnails');
     add_theme_support('custom-logo', array(
@@ -101,4 +103,10 @@ function wpdevs_sidebars()
         'after_title' => '</h4>'
 
     ));
+}
+
+if (! function_exists ('wp_body_open')){
+    function wp_body_open(){
+        do_action( 'wp_body_open' );
+    }
 }
